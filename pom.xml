@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
   
   <modules>
-      <!-- <module>java</module> -->
+    <module>java</module>
       <!-- <module>spring</module>  -->
       <!-- <module>spring-data</module> -->
   </modules>
