@@ -1,12 +1,8 @@
 # Workshop Java (Intro to Java 11 and Spring with Spring Data JPA)
 
-
-
 This workshop aims to cover an intro about the new features in Java 11 and review the hottest Java 8 API, besides a prelude to Spring and Spring Data.
 
 We'll cover this workshop in three days, each day with two hours of "presential" lessons.
-
-
 
 
 * [Java 11 (Review some Java 8 points also)](java)
@@ -30,10 +26,7 @@ We'll cover this workshop in three days, each day with two hours of "presential"
 
 ## Minimum requirement
 
-
-
 There is a minimum requirement for this workshop, and you must have all those software installed before the workshop.
-
 
 
 * Java 11 (Feel free to choose any of your favorite vendors since it provides Java 11.)
@@ -51,6 +44,3 @@ There is a minimum requirement for this workshop, and you must have all those so
 * [Docker](https://docs.docker.com/get-docker/)
 * [Docker-compose](https://docs.docker.com/compose/install/)
 * [Maven](https://maven.apache.org/)
-
-
-
