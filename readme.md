@@ -9,18 +9,18 @@ We'll cover this workshop in three days, each day with two hours of "presential"
 
 
 
-* Java 11 skills (Review some Java 8 points also).
+* [Java 11 (Review some Java 8 points also)](java)
   * Stream
   * An intro to functional API (Function, Predicate, Consumer, Supplier).I
   * Method reference
   * Date API
   * The news in the Java 11
   * The news methods in the Collection API and Map API.
-* Spring
+* [Spring](spring)
   * IoC
   * Rest API
   * Spring.io
-* Spring Data
+* [Spring Data](spring-data)
   * JPA
   * Repository
   * Method Query
