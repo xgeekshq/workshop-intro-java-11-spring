@@ -10,3 +10,10 @@
 
 
   ## References:
+
+
+
+* [Intro to Stream](https://www.baeldung.com/java-8-streams)
+* [Stream API](http://tutorials.jenkov.com/java-functional-programming/streams.html)
+* [Introduction to the Java Date/Time API](https://www.baeldung.com/java-8-date-time-intro)
+* [Java 11 new Features](https://www.baeldung.com/java-11-new-features)
