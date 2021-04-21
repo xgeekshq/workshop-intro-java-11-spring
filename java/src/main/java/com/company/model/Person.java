@@ -55,9 +55,6 @@ public class Person {
                 '}';
     }
 
-    public static PersonFluent name(String name) {
-        return new DefaultPersonFluent(name);
-    }
     public static PersonBuilder builder() {
         return new PersonBuilder();
     }
