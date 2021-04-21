@@ -5,15 +5,12 @@ import java.util.function.Function;
 public class FunctionApp {
 
     public static void main(String[] args) {
-        Function<String, Integer> converter = s -> Integer.valueOf(s);
+        Function<String, Integer> toNumber = Integer::parseInt;
+        System.out.println("To number: " + toNumber.apply("234"));
+        Function<String, String> upperCase = String::toUpperCase;
         Function<String, String> trim = String::trim;
-        Function<String, String> upper = String::toUpperCase;
-        Function<String, String> searchEngine = trim.andThen(upper);
-        var text = "   giosepe deveria falar italiano   ";
-        System.out.println("The brute value: " + text);
-        System.out.println("The search engine: "
-                + searchEngine.apply(text));
-
+        Function<String, String> searchEngine = upperCase.andThen(trim);
+        System.out.println("Search result: " + searchEngine.apply("   test one two   "));
 
     }
 }
