@@ -9,8 +9,9 @@ public class SpringApp {
 
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringApp.class);
-        Payment payment = context.getBean(Payment.class);
+        PaymentService payment = context.getBean(PaymentService.class);
         System.out.println(payment);
+        System.out.println( context.getBean(PaymentDescription.class));
 
     }
 }

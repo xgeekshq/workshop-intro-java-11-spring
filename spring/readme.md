@@ -5,17 +5,41 @@
     * Rest API
     * Spring.io
 
-## Annotations
+
+
+## Spring Core
+
+### Annotations
 * Component
+* Repository
+* Service
+* Qualifier
 * ComponentScan
 * SpringBootApplication
 * Configuration
 * Bean
+* Primary
+* Lazy
 
-
-## Classes
+### Classes
 * ApplicationContext
 * AnnotationConfigApplicationContext
+
+## Spring Web
+
+### Annotations
+* SpringBootApplication
+* ResponseStatus
+* RequestMapping
+* GetMapping
+* RequestParam
+* PathVariable
+* PostMapping
+* RequestBody
+* PutMapping
+* DeleteMapping
+
+### Classes
 
 ## References
 
