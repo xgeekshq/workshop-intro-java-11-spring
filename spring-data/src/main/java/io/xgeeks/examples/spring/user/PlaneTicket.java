@@ -4,6 +4,6 @@ import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue("PLAIN")
-public class PlainTicket extends Ticket{
+@DiscriminatorValue("PLANE")
+public class PlaneTicket extends Ticket {
 }

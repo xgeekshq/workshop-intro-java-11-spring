@@ -1,5 +1,8 @@
 package io.xgeeks.examples.spring.user;
 
+import com.fasterxml.jackson.annotation.JsonSubTypes;
+import com.fasterxml.jackson.annotation.JsonTypeInfo;
+
 import javax.persistence.Column;
 import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;
@@ -16,7 +19,12 @@ import java.util.Objects;
 
 @Entity
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name="type",discriminatorType = DiscriminatorType.STRING)
+@DiscriminatorColumn(name = "type", discriminatorType = DiscriminatorType.STRING)
+@JsonTypeInfo(use = JsonTypeInfo.Id.NAME, include = JsonTypeInfo.As.PROPERTY, property = "type")
+@JsonSubTypes({@JsonSubTypes.Type(value = BoatTicket.class, name = "BOAT"),
+        @JsonSubTypes.Type(value = BusTicket.class, name = "BUS"),
+        @JsonSubTypes.Type(value = PlaneTicket.class, name = "PLANE")
+})
 public abstract class Ticket {
 
     @Id
@@ -27,6 +35,7 @@ public abstract class Ticket {
     private BigDecimal value;
 
     @Enumerated(EnumType.STRING)
+    @Column(insertable = false, updatable = false)
     private TicketType type;
 
     @Override

@@ -27,7 +27,7 @@ public class Person  {
     @Column
     private String city;
 
-    @OneToMany(fetch = FetchType.LAZY)
+    @OneToMany(fetch = FetchType.EAGER)
     private List<Ticket> tickets;
 
     public Long getId() {
