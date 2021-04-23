@@ -16,4 +16,6 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+* [LeaseWeb API Design Standards](https://github.com/LeaseWeb/api-standards)
+* [Hibernate Inheritance Mapping](https://www.baeldung.com/hibernate-inheritance)
 
