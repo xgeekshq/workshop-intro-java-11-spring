@@ -9,7 +9,7 @@
   
   <modules>
     <module>java</module>
-      <!-- <module>spring</module>  -->
+    <module>spring</module>
       <!-- <module>spring-data</module> -->
   </modules>
 </project>
