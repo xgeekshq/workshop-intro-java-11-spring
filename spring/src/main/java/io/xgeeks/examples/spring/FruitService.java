@@ -1,7 +1,2 @@
-package io.xgeeks.examples.spring;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class FruitService {
+package io.xgeeks.examples.spring;public class FruitService {
 }
