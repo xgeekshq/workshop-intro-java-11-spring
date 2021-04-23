@@ -18,4 +18,4 @@ The following guides illustrate how to use some features concretely:
 * [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 * [LeaseWeb API Design Standards](https://github.com/LeaseWeb/api-standards)
 * [Hibernate Inheritance Mapping](https://www.baeldung.com/hibernate-inheritance)
-
+* [Glory of rest](https://martinfowler.com/articles/richardsonMaturityModel.html)
