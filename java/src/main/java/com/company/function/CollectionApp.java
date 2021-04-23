@@ -14,9 +14,6 @@ public class CollectionApp {
         fruits.add("Banana");
         fruits.add("Apple");
         fruits.add("watermelon");
-        for (String fruit : fruits) {
-            System.out.println(fruit);
-        }
         fruits.forEach(System.out::println);
         Predicate<String> banana = s -> s.equals("Banana");
         fruits.removeIf(banana.negate());
