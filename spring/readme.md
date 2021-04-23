@@ -28,18 +28,17 @@
 ## Spring Web
 
 ### Annotations
-* SpringBootApplication
-* ResponseStatus
-* RequestMapping
-* GetMapping
-* RequestParam
-* PathVariable
-* PostMapping
-* RequestBody
-* PutMapping
-* DeleteMapping
+* SpringBootApplication: Indicates a configuration class that declares one or more @Bean methods and also triggers auto-configuration and component scanning.
+* ResponseStatus: Marks a method or exception class with the status code and reason that should be returned.
+* RequestMapping: Annotation for mapping web requests onto methods in request-handling classes with flexible method signatures.
+* GetMapping: Annotation for mapping HTTP GET requests onto specific handler methods.
+* RequestParam: Annotation which indicates that a method parameter should be bound to a web request parameter.
+* PathVariable: Annotation which indicates that a method parameter should be bound to a URI template variable.
+* PostMapping: Annotation for mapping HTTP POST requests onto specific handler methods.
+* RequestBody: Annotation indicating a method parameter should be bound to the body of the web request.
+* PutMapping: Annotation for mapping HTTP PUT requests onto specific handler methods.
+* DeleteMapping: Annotation for mapping HTTP DELETE requests onto specific handler methods.
 
-### Classes
 
 ## References
 
