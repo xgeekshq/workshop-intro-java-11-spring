@@ -34,9 +34,11 @@ public abstract class Ticket {
     @Column
     private BigDecimal value;
 
-    @Enumerated(EnumType.STRING)
-    @Column(insertable = false, updatable = false)
-    private TicketType type;
+    public BigDecimal getValue() {
+        return value;
+    }
+
+    public abstract TicketType getType();
 
     @Override
     public boolean equals(Object o) {
@@ -60,7 +62,6 @@ public abstract class Ticket {
         return "Ticket{" +
                 "id=" + id +
                 ", value=" + value +
-                ", type=" + type +
                 '}';
     }
 }
