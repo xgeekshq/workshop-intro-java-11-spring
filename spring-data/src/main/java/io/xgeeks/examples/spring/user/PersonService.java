@@ -13,7 +13,7 @@ class PersonService {
 
     public void update(Long id, Person person) {
         Person databasePerson = this.repository.findById(id)
-                .orElseThrow(() -> new RuntimeException());
+                .orElseThrow(RuntimeException::new);
 
         databasePerson.update(person);
         this.repository.save(databasePerson);
