@@ -24,6 +24,7 @@ public class Person  {
     @Column
     private String name;
 
+    @NotBlank(message = "the city is mandatory in person")
     @Column
     private String city;
 
