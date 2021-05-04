@@ -21,6 +21,7 @@ public class Person  {
     private Long id;
 
     @NotBlank(message = "the name is mandatory in person")
+    @Column
     private String name;
 
     @Column
