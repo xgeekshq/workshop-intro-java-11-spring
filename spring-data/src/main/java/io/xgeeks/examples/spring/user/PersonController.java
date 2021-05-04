@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.validation.Valid;
 import java.util.stream.Stream;
 
 @RestController
@@ -41,7 +42,7 @@ public class PersonController {
         return this.repository.findById(id).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND));
     }
     @PostMapping
-    public Person insert(@RequestBody Person person) {
+    public Person insert(@Valid @RequestBody Person person) {
         return this.repository.save(person);
     }
 
