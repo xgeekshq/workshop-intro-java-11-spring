@@ -2,7 +2,7 @@
 
 * Java 11 (Review some Java 8 points also)
   * Stream
-  * An intro to functional API (Function, Predicate, Consumer, Supplier).I
+  * An intro to functional API (Function, Predicate, Consumer, Supplier).
   * Method reference
   * Date API
   * The news in the Java 11
